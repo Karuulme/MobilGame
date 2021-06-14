@@ -31,6 +31,8 @@ public class OyunPuanSistemi : MonoBehaviour
 
     public void Start()
     {
+        Debug.Log("Merhaba Dünya");
+            
         PlayerLevelIconuCreat = FindObjectOfType<PlayerLevelIcone>().GetComponent<PlayerLevelIcone>();
         MonsterHiz = FindObjectOfType<Monster_yedek>().GetComponent<Monster_yedek>();
         InvokeRepeating("Star",1, 1);
