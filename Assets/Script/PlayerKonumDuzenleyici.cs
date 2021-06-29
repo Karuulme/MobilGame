@@ -150,6 +150,7 @@ public class PlayerKonumDuzenleyici : MonoBehaviour
         }
         if (Konum == true)
         {
+            
             Konum = false;
             for (var i = 0; i < 6; i++)
             {
